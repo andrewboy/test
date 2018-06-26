@@ -1,0 +1,21 @@
+{
+    "name": "andrewboy/test",
+    "description": "Laravel package for test.",
+    "keywords": ["laravel", "test"],
+    "authors": [
+        {
+            "name": "Beck András",
+            "email": "andras.jozsef.beck@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": ">5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Andrewboy\\Test": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
